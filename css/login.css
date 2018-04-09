@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 621779 */
+    src: url('https://at.alicdn.com/t/font_621779_sz4h2dgjpvkuik9.eot');
+    src: url('https://at.alicdn.com/t/font_621779_sz4h2dgjpvkuik9.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_621779_sz4h2dgjpvkuik9.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_621779_sz4h2dgjpvkuik9.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_621779_sz4h2dgjpvkuik9.svg#iconfont') format('svg');
+}
+.l_top_bottom{
+    width: 100%;
+    height: 1.28rem;
+    background: #039dff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.l_top_title{
+    width: 100%;
+    height: 0.89rem;
+    position: fixed;
+    top: 0.39rem;
+    left: 0;
+    z-index: 2;
+}
+.icon{
+    font-family: 'iconfont';
+}
+.l_top_left{
+    line-height: 0.89rem;
+    color: #fff;
+    margin-left: 0.4rem;
+    font-size: 0.4rem;
+}
+.l_top_mid{
+    line-height: 0.89rem;
+    color: #fff;
+    font-size: 0.34rem;
+    margin-left: 2.66rem;
+}
+.l_top_right{
+    float: right;
+    margin-right: 0.36rem;
+    line-height: 0.89rem;
+    color: #fff;
+    font-size: 0.32rem;
+}
+.l_content{
+    background: #f5f5f5;
+    position: absolute;
+    top: 1.28rem;
+    left: 0;
+    height: 12.06rem;
+    width: 100%;
+}
+.l_content_c1{
+    width: 7.5rem;
+    height: 1.76rem;
+    border-bottom: 0.01rem solid #eee;
+    border-top: 0.01rem solid #eee;
+    padding-left: 0.3rem;
+    background: #fff;
+}
+.l_c1_user{
+    height: 0.86rem;
+    width: 7.2rem;
+    border: none;
+    color: #c7c7cd;
+    line-height: 0.88rem;
+    font-size: 0.3rem;
+    outline: 0;
+}
+.pass{
+    border-top: 0.01rem solid #eee;
+}
+.l_c1_user1{
+    width: 4.5rem;
+}
+.get_yzm{
+    float: right;
+    width: 2rem;
+    height: 0.6rem;
+    background: #ccc;
+    color: #fff;
+    line-height: 0.6rem;
+    padding: 0 0.2rem;
+    border-radius: 0.1rem;
+    border: none;
+    margin-top: 0.13rem;
+    margin-right: 0.3rem;
+}
+.l_content_c2{
+    width: 100%;
+    height: 10.3rem;
+    padding: 0 0.3rem;
+    position: relative;
+}
+.law{
+    color: #039dff;
+}
+.tip{
+    margin-top: 0.15rem;
+}
+.other_login{
+    height: 2.13rem;
+    border-top: 0.01rem solid #eee;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.other_login_title{
+    width: 2.03rem;
+    height: 0.26rem;
+    background: #f5f5f5;
+    position: absolute;
+    top: -0.14rem;
+    left: 2.74rem;
+    color: #666;
+    line-height: 0.26rem;
+    font-size: 0.28rem;
+    text-align: center;
+}
+.other_login_icon{
+    margin-top: 0.34rem;
+    width: 100%;
+    height: 1.79rem;
+}
+.other_login_icon img{
+    width: 1.87rem;
+    height: 100%;
+    float: left;
+}
