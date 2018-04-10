@@ -5,7 +5,7 @@ html,body{overflow:hidden;overflow-y:auto;}
     width: 100%;
 }
 .l_top_title1{
-    top: 0.79rem;
+    top: 0.7rem;
     padding: 0 0.34rem;
 }
 .pos{
@@ -43,7 +43,7 @@ html,body{overflow:hidden;overflow-y:auto;}
 .search{
     height: 0.72rem;
     width: 100%;
-    margin-top: 1.68rem;
+    margin-top: 1.59rem;
     padding: 0 0.2rem;
 }
 .search input{
@@ -72,7 +72,7 @@ html,body{overflow:hidden;overflow-y:auto;}
 .banner{
     width: 7.5rem;
     height: 2.1rem;
-    margin-top: 3.03rem;
+    margin-top: 2.94rem;
     overflow: hidden;
     background: url("../img/5.1_13.png");
     background-size: 7.5rem 2.1rem;
@@ -151,7 +151,7 @@ html,body{overflow:hidden;overflow-y:auto;}
 }
 .zhanwei{
     width: 100%;
-    height: 3rem;
+    height: 1rem;
 }
 .i_c3{
     width:6.9rem;
@@ -189,7 +189,7 @@ html,body{overflow:hidden;overflow-y:auto;}
     height: 0.29rem;
     border: 0.01rem solid #999;
     text-align: center;
-    line-height: 0.28rem;
+    line-height: 0.29rem;
     color: #999;
     margin: 0.13rem auto;
 }
@@ -252,7 +252,6 @@ html,body{overflow:hidden;overflow-y:auto;}
 .mail_list{
     width: 7.5rem;
     height: 3.09rem;
-    background: yellow;
     border-bottom: 0.01rem solid #eee;
     padding-top: 0.32rem;
 }
@@ -266,6 +265,131 @@ html,body{overflow:hidden;overflow-y:auto;}
     background: url("../img/20.1_19.png");
     background-size: 1.18rem 1.18rem;
 }
+.mail_img1{
+    background: url("../img/22.1_06.png");
+    background-size: 1.18rem 1.18rem;
+}
+.mail_img2{
+    background: url("../img/22.1_08.png");
+    background-size: 1.18rem 1.18rem;
+}
+.mail_img3{
+    background: url("../img/21.1_06.png");
+    background-size: 1.18rem 1.18rem;
+}
+.mail_img4{
+    background: url("../img/21.1_03.png");
+    background-size: 1.18rem 1.18rem;
+}
+.mail_img5{
+    background: url("../img/21.1_06.png");
+    background-size: 1.18rem 1.18rem;
+}
+.mail_img6{
+    background: url("../img/21.1_06.png");
+    background-size: 1.18rem 1.18rem;
+}
 .mail_wenzi{
-
+    width: 5.76rem;
+    margin-left: 0.2rem;
+    float: left;
+    height: 2.5rem;
+}
+.mail_wenzi .span1{
+    line-height: 0.3rem;
+    font-size: 0.3rem;
+    color: #333;
+    font-weight: bold;
+}
+.h3_icon{
+    float: right;
+    color: #bbb;
+    line-height: 0.3rem;
+    font-size: 0.3rem;
+  }
+.star{
+    line-height: 0.22rem;
+    margin-top: 0.2rem;
+    color: #707070;
+    font-size: 0.22rem;
+    margin-bottom: 0.2rem;
+}
+.star span{
+    color: #ffb51c;
+}
+.send{
+    color: #707070;
+    font-size: 0.22rem;
+    line-height: 0.22rem;
+    margin-top: 0.22rem;
+}
+.taps{
+    padding: 0 0.12rem;
+    font-size: 0.18rem;
+    color: #707070;
+    width: 1.26rem;
+    height: 0.3rem;
+    border: 0.01rem solid #ddd;
+    margin-top: 0.2rem;
+    margin-bottom: 0.18rem;
+}
+.tejia span{
+    border: 0.01rem solid #f4cfcc;
+    margin-top: 0.2rem;
+    color: #ce7b77;
+    background: #fff4f2;
+    margin-right: 0.08rem;
+}
+.tejia{
+    float: left;
+    line-height: 0.4rem;
+    color: #666;
+}
+.l_top_bottom{
+    position: absolute;
+}
+.index_t{
+    position: absolute;
+}
+.f_nav{
+    height: 1.28rem;
+    width: 100%;
+    background: #0094ff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+}
+.f_nav input{
+    width: 7.1rem;
+    height: 0.6rem;
+    background: #fff;
+    border-radius: 0.05rem;
+    position: absolute;
+    color: #91caff;
+    padding: 0 0.05rem;
+    bottom: 0.14rem;
+    left: 0.2rem;
+    line-height: 0.6rem;
+    text-align: center;
+    color: #999;
+    font-size: 0.22rem;
+    border: none;
+    outline: none;
+}
+.ftap{
+    width: 0.64rem;
+    height: 0.26rem;
+    border: 0.01rem solid #91caff;
+    color: #91caff;
+    font-size: 0.16rem;
+    text-align: center;
+    margin-left: 1.5rem;
+    border-radius: 0.05rem;
+}
+.ftap1{
+    margin-left: 0.1rem;
+    background: #91caff;
+    color: #fff;
 }

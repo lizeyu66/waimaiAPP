@@ -32,27 +32,13 @@
         }else{
             $(".totop").hide();
         }
+        if(st>100){
+            $(".f_nav").show();
+        }else{
+            $(".f_nav").hide();
+        }
     })
 }
-//首页
-// { //滚动条
-//     let iscroll = new IScroll(".c5", {
-//         mouseWheel: true,      //设置滚轮滚动
-//         scrollbars: false,    //如果有滚动条，就需要加定位
-//         shrinkScrollbars: "scale",
-//         fadeScrollbars: true
-//     })
-// }
-//type_list页面
-// {  let iscroll1=new IScroll(".content_bottom_nav",{
-//         mouseWheel: true,      //设置滚轮滚动
-//         scrollbars: true ,    //如果有滚动条，就需要加定位
-//         shrinkScrollbars:"scale",
-//         fadeScrollbars:true,
-//         hScrollbar:false
-//     })
-//
-// }
 // type_list 页面左侧nav点击效果
 {
     $(".c_b_nav_tip").click(function(){
